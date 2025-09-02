@@ -12,7 +12,8 @@ module "sandbox" {
 
 
   account_tags = {
-    "Learn Tutorial" = "AFT Multi Account Setup"
+    # "Learn Tutorial" = "AFT Multi Account Setup"
+     "Purpose" = "AFT Multi Account Setup"
   }
 
   change_management_parameters = {
