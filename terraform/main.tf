@@ -10,6 +10,7 @@ module "sandbox" {
     SSOUserLastName           = "Admin"
   }
 
+
   account_tags = {
     "Learn Tutorial" = "AFT Multi Account Setup"
   }
