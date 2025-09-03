@@ -65,12 +65,12 @@ module "sandbox2" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "azeezafeez119+Ooshlink@gmail.com"
-    AccountName               = "Oosh-admin1"
+    AccountEmail              = "azeezafeez119+Ooshlink3@gmail.com"
+    AccountName               = "Oosh-admin3"
     ManagedOrganizationalUnit = "Production (ou-z0bg-iyb6vpy0)"
     SSOUserEmail              = "<afeezazeez119@gmail.com>"
     SSOUserFirstName          = "Ooshlink"
-    SSOUserLastName           = "Admin1"
+    SSOUserLastName           = "Admin3"
   }
 
 
@@ -88,5 +88,5 @@ module "sandbox2" {
     group = "non-prod"
   }
 
-  account_customizations_name = "sandbox"
+  account_customizations_name = "Ooshlink-admin"
 }
